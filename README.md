@@ -1,5 +1,5 @@
 # GA144-Arrayforth-Linux
-configuration linux Arrayforth ttyUSB0
+- configuration linux Arrayforth ttyUSB0
 Arrayforth is here  : ~/.wine/drive_c/GreenArrays/EVB002/
 program is Okad2-42c-pd.exe
 2 script :
