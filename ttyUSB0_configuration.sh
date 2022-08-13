@@ -2,7 +2,7 @@
 #
 # Auteur : Emmanuel SAID
 # Date : Aout 2022
-# Version 1.0.0 : configuration port USB serie ttyUSB0 lancement Arrayforth
+# Version 1.0.0 : configuration port USB serie ttyUSB0 dialout
 #
 
 # Affiche un texte à l'écran :
