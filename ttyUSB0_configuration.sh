@@ -9,7 +9,7 @@
 echo "Configuration ttyUSB0"
 echo "ttyUSB0 droit acces "
 groups
-sudo usermod -a -G dialout $USERNAME
+sudo usermod -a -G dialout $USER
 ls -l /dev/ttyUSB0
 echo " redemarrer la session "
 
