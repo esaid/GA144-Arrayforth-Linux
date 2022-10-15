@@ -16,6 +16,9 @@ stty -F /dev/ttyUSB0 | grep speed
 cd ~/.wine/dosdevices/
 echo " ttyUSB0 est attache au COM"
 ls -l | grep ttyUSB0
+echo " configuration vitesse et parametre port serie "
+stty -F /dev/ttyUSB0 921600 -parenb cs8 -cstopb -crtscts raw -echo
+stty -F /dev/ttyUSB0
 echo " lancement programme Arrayforth "
 cd ~/.wine/drive_c/GreenArrays/EVB002/
 wine Okad2-42c-pd.exe
