@@ -18,5 +18,5 @@ echo " ttyUSB0 est attache au COM"
 ls -l | grep ttyUSB0
 setserial /dev/ttyUSB0 low_latency
 echo " lancement programme Arrayforth "
-cd ~/.wine/drive_c/GreenArrays/EVB002/
+cd ~/.wine/drive_c/GreenArrays02/EVB002/
 wine Okad2-42c-pd.exe
